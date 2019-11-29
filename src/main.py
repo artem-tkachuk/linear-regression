@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 
 def main():
-    fileName = 'data/simple.txt'
+    fileName = 'src/data/cost_revenue_clean_custom.txt'
 
     thetas = train(fileName)
     print(thetas)

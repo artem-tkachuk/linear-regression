@@ -7,9 +7,9 @@ from src.helper.graph import init_cost, replot_cost, init_line, replot_line
 
 def train(fn):
     # number of training iterations
-    nTimes = 100
+    nTimes = 1000000
     # step size (learning rate)
-    rate = 0.0005
+    rate = 5e-25
     # data, # of training examples, # of input features + 1
     data, n, m = readFile(fn)
 
